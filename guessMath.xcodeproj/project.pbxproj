@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB1A790F1CDDE2FA00179791 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A790E1CDDE2FA00179791 /* main.m */; };
+		DB1A79121CDDE2FA00179791 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A79111CDDE2FA00179791 /* AppDelegate.m */; };
+		DB1A79151CDDE2FA00179791 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A79141CDDE2FA00179791 /* ViewController.m */; };
+		DB1A79181CDDE2FA00179791 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1A79161CDDE2FA00179791 /* Main.storyboard */; };
+		DB1A791A1CDDE2FA00179791 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1A79191CDDE2FA00179791 /* Assets.xcassets */; };
+		DB1A791D1CDDE2FA00179791 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1A791B1CDDE2FA00179791 /* LaunchScreen.storyboard */; };
+		DB92B69D1CE2098B007C8148 /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = DB92B69C1CE2098B007C8148 /* Round.m */; };
+		DBB606371CE07E9500BBC186 /* guseeMathTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB606361CE07E9500BBC186 /* guseeMathTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB1A790A1CDDE2FA00179791 /* guessMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guessMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1A790E1CDDE2FA00179791 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB1A79101CDDE2FA00179791 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB1A79111CDDE2FA00179791 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB1A79131CDDE2FA00179791 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB1A79141CDDE2FA00179791 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB1A79171CDDE2FA00179791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1A79191CDDE2FA00179791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1A791C1CDDE2FA00179791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1A791E1CDDE2FA00179791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB92B69B1CE2098B007C8148 /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
+		DB92B69C1CE2098B007C8148 /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
+		DBB606351CE07E9500BBC186 /* guseeMathTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = guseeMathTableViewController.h; sourceTree = "<group>"; };
+		DBB606361CE07E9500BBC186 /* guseeMathTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = guseeMathTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB1A79071CDDE2FA00179791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB1A79011CDDE2FA00179791 = {
+			isa = PBXGroup;
+			children = (
+				DB1A790C1CDDE2FA00179791 /* guessMath */,
+				DB1A790B1CDDE2FA00179791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB1A790B1CDDE2FA00179791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A790A1CDDE2FA00179791 /* guessMath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB1A790C1CDDE2FA00179791 /* guessMath */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A79101CDDE2FA00179791 /* AppDelegate.h */,
+				DB1A79111CDDE2FA00179791 /* AppDelegate.m */,
+				DB1A79131CDDE2FA00179791 /* ViewController.h */,
+				DB1A79141CDDE2FA00179791 /* ViewController.m */,
+				DB92B69B1CE2098B007C8148 /* Round.h */,
+				DB92B69C1CE2098B007C8148 /* Round.m */,
+				DB1A79161CDDE2FA00179791 /* Main.storyboard */,
+				DBB606351CE07E9500BBC186 /* guseeMathTableViewController.h */,
+				DBB606361CE07E9500BBC186 /* guseeMathTableViewController.m */,
+				DB1A79191CDDE2FA00179791 /* Assets.xcassets */,
+				DB1A791B1CDDE2FA00179791 /* LaunchScreen.storyboard */,
+				DB1A791E1CDDE2FA00179791 /* Info.plist */,
+				DB1A790D1CDDE2FA00179791 /* Supporting Files */,
+			);
+			path = guessMath;
+			sourceTree = "<group>";
+		};
+		DB1A790D1CDDE2FA00179791 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB1A790E1CDDE2FA00179791 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB1A79091CDDE2FA00179791 /* guessMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB1A79211CDDE2FA00179791 /* Build configuration list for PBXNativeTarget "guessMath" */;
+			buildPhases = (
+				DB1A79061CDDE2FA00179791 /* Sources */,
+				DB1A79071CDDE2FA00179791 /* Frameworks */,
+				DB1A79081CDDE2FA00179791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guessMath;
+			productName = guessMath;
+			productReference = DB1A790A1CDDE2FA00179791 /* guessMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB1A79021CDDE2FA00179791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "張峻綸";
+				TargetAttributes = {
+					DB1A79091CDDE2FA00179791 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DB1A79051CDDE2FA00179791 /* Build configuration list for PBXProject "guessMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB1A79011CDDE2FA00179791;
+			productRefGroup = DB1A790B1CDDE2FA00179791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB1A79091CDDE2FA00179791 /* guessMath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB1A79081CDDE2FA00179791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A791D1CDDE2FA00179791 /* LaunchScreen.storyboard in Resources */,
+				DB1A791A1CDDE2FA00179791 /* Assets.xcassets in Resources */,
+				DB1A79181CDDE2FA00179791 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB1A79061CDDE2FA00179791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1A79151CDDE2FA00179791 /* ViewController.m in Sources */,
+				DB1A79121CDDE2FA00179791 /* AppDelegate.m in Sources */,
+				DB92B69D1CE2098B007C8148 /* Round.m in Sources */,
+				DB1A790F1CDDE2FA00179791 /* main.m in Sources */,
+				DBB606371CE07E9500BBC186 /* guseeMathTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB1A79161CDDE2FA00179791 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A79171CDDE2FA00179791 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB1A791B1CDDE2FA00179791 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB1A791C1CDDE2FA00179791 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB1A791F1CDDE2FA00179791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB1A79201CDDE2FA00179791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB1A79221CDDE2FA00179791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = guessMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allen.guessMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB1A79231CDDE2FA00179791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = guessMath/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.allen.guessMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB1A79051CDDE2FA00179791 /* Build configuration list for PBXProject "guessMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A791F1CDDE2FA00179791 /* Debug */,
+				DB1A79201CDDE2FA00179791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB1A79211CDDE2FA00179791 /* Build configuration list for PBXNativeTarget "guessMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB1A79221CDDE2FA00179791 /* Debug */,
+				DB1A79231CDDE2FA00179791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB1A79021CDDE2FA00179791 /* Project object */;
+}
